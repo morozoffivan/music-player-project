@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- style -->
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kenia&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Music player</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- header section start -->
-     <section id="header">
-        <header>
+    <section id="header">
+      <header>
+        <div class="container">
+          <div class="flex-container-header">
+            <img class="logo" src="./assets/img/header/logo.png" alt="logo" />
 
-            <div class="container">
+            <div class="flex-item-header item-main-header">HOME</div>
+            <div class="flex-item-header">MUSIC</div>
+            <div class="flex-item-header">ABOUT</div>
+            <div class="flex-item-header">STORE</div>
+          </div>
 
-                
-
-                <div class="flex-container-header">
-
-                    <img class="logo" src="./assets/img/header/logo.png" alt="logo">
-
-                    <div class="flex-item-header item-main-header">HOME</div>
-                    <div class="flex-item-header">MUSIC</div>
-                    <div class="flex-item-header">ABOUT</div>
-                    <div class="flex-item-header">STORE</div>
-                </div>
-
-                <div class="grid-container-header">
-                    <div class="grid-item-header">
-                        <span>
-                            MUSIC <br>
-                            PLAYER
-                        </span>
-                        <span>
-                            American company formed in 2002 in <br>
-                            Boston, Massachusetts
-                        </span>
-                    </div>
-                    <div class="grid-item-header">
-                        <img class="phone" src="./assets/img/header/Flat iPhone 1.png" alt="iPhone">
-                        <img class="img-wired" src="./assets/img/header/kabel_apple_mxly2zm_a_lightning_m_usb_a_m_1m_mfi_belyy_1346033_2 1.png" alt="iPhone">
-                    </div>
-                </div>
-
+          <div class="grid-container-header">
+            <div class="grid-item-header text-header">
+              <div class="text-header-big">
+                MUSIC <br />
+                PLAYER
+              </div>
+              <div class="text-header-low">
+                American company formed in 2002 in <br />
+                Boston, Massachusetts
+              </div>
             </div>
-        </header>
-     </section>
+            <div class="grid-item-header">
+              <img
+                class="phone"
+                src="./assets/img/header/Flat iPhone 1.png"
+                alt="iPhone"
+              />
+              <img
+                class="img-wired"
+                src="./assets/img/header/kabel_apple_mxly2zm_a_lightning_m_usb_a_m_1m_mfi_belyy_1346033_2 1.png"
+                alt="iPhone"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
     <!-- header section end -->
-    
+
     <!-- music section start -->
-     <section id="music">
-
-        <main>
-            <div class="container">
-                
-                <div class="grid-container-music">
-                    <div class="grid-item"></div>
-                    <div class="grid-item"></div>
-                </div>
-            
-            </div>
-        </main>
-
-     </section>
+    <section id="music">
+      <main>
+        <div class="container">
+          <div class="grid-container-music">
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+          </div>
+        </div>
+      </main>
+    </section>
     <!-- music section end -->
-
-</body>
+  </body>
 </html>
