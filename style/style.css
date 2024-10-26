@@ -57,7 +57,8 @@ body {
   z-index: 3;
 }
 
-.text-header-big {  margin-top: 164px;
+.text-header-big {
+  margin-top: 164px;
   margin-bottom: 280px;
   color: rgb(255, 255, 255);
   font-family: Kenia;
@@ -77,3 +78,163 @@ body {
   background-color: rgb(213, 48, 5);
 }
 /* music end */
+
+.title-section {
+  position: relative;
+  top: 83px;
+  margin: 0;
+  color: rgb(255, 255, 255);
+  font-family: Karla;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.grid-container-music {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.flex-music-container {
+  display: flex;
+  flex-direction: column;
+  gap: 88px;
+  margin-top: 385px;
+}
+
+.flex-music-container > button {
+  color: rgb(255, 255, 255);
+  font-family: Karla;
+  font-size: 40px;
+  font-weight: 400;
+
+  width: 382px;
+  height: 83px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: -4px -4px 30px 0px rgba(255, 255, 255, 0.1),
+    4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+  background: radial-gradient(
+    2087.07% 134.42% at 2% 8%,
+    rgb(177, 62, 24),
+    rgb(243, 80, 26) 100%
+  );
+}
+
+.grid-item-music-img > img {
+  width: 935px;
+  height: 666.5px;
+}
+
+/* about start */
+#about {
+  background: linear-gradient(180deg, rgb(213, 48, 5), rgb(0, 0, 0) 6.037%);
+  width: 1440px;
+  height: 1024px;
+}
+
+.text-about {
+  color: rgb(255, 255, 255);
+  font-family: Karla;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.flex-container-about {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* about end */
+/* store start */
+#store {
+  background: rgb(213, 48, 5);
+  width: 1440px;
+  height: 1024px;
+}
+
+.grid-container-store{
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  grid-template-rows: 1fr;
+}
+
+.flex-container-store {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin-top: 254px;
+  width: 240px;
+  height: 60px;
+}
+
+.download-btn {
+  width: 240px;
+  height: 60px;
+
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  border-radius: 30px;
+  box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.1),
+    4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(227, 227, 227);
+
+  color: rgb(0, 20, 0);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.download-btn-win {
+  width: 240px;
+  height: 60px;
+
+  border-radius: 30px;
+  box-shadow: -4px -4px 4px 0px rgba(255, 255, 255, 0.1),
+    4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(2, 2, 2, 0.9);
+
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.description {
+  display: inline-block;
+  margin-top: 243px;
+  text-align: center;
+}
+
+.description-title {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.description-text {
+  color: rgb(255, 255, 255, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.description-link {
+  color: rgba(4, 4, 4, 0.8);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.img-store {
+  position: relative;
+  width: 860px;
+  height: 583px;
+  top: 169px;
+  right: 50px;
+}
+/* store end */
