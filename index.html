@@ -23,7 +23,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
     <title>Music player</title>
 
   </head>
@@ -38,11 +41,11 @@
           <div class="flex-container-header">
             
             <img class="logo" src="./assets/img/header/logo.png" alt="logo" />
-
-            <div class="flex-item-header item-main-header">HOME</div>
-            <div class="flex-item-header">MUSIC</div>
-            <div class="flex-item-header">ABOUT</div>
-            <div class="flex-item-header">STORE</div>
+            
+            <div class="flex-item-header item-main-header"><a href="#header">HOME</a></div>
+            <div class="flex-item-header"><a href="#music">MUSIC</a></div>
+            <div class="flex-item-header"><a href="#about">ABOUT</a></div>
+            <div class="flex-item-header"><a href="#store">STORE</a></div>
           
           </div>
 
@@ -56,8 +59,8 @@
               </div>
               
               <div class="text-header-low">
-                American company formed in 2002 in <br />
-                Boston, Massachusetts
+                American company formed<br />
+                in 2002 in Boston, Massachusetts
               </div>
             
             </div>
@@ -99,8 +102,8 @@
           <div class="grid-container-music">
             
             <div class="flex-music-container">
-              <button>Listen now</button>
-              <button>Find a song...</button>
+              <button type="button">Listen now</button>
+              <button type="button">Find a song...</button>
             </div>
             
             <div class="grid-item-music-img">
@@ -196,35 +199,64 @@
     <section id="footer">
       <div class="container">
 
+        <img class="logo-footer" src="./assets/img/footer/MUSIC PLAYER.png" alt="logo">
+
         <div class="flex-container-footer">
 
-          <div class="flex-subcontainer-footer-first">
-              <ul>
-                <li class="title-footer-list">MPlayer Store</li>
-                <li>Варианты оплаты</li>
-                <li>Состояние заказа</li>
-                <li>Помощь при покупке</li>
-              </ul>
+          <ul>
+
+            <li class="title-footer-list">MPlayer Store</li>
+            <li><a href="">Варианты оплаты</a></li>
+            <li><a href="">Состояние заказа</a></li>
+            <li><a href="">Помощь при покупке</a></li>
+
+          </ul>
+
+          <ul>
+
+            <li class="title-footer-list">Ценности MPlayer</li>
+            <li><a href="">Универсальный доступ</a></li>
+            <li><a href="">Окружающая среда</a></li>
+            <li><a href="">Конфиденциальность</a></li>
+
+          </ul>  
+
+          <ul>
+
+            <li class="title-footer-list">Учётная запись</li>
+            <li><a href="">Управление вашим MPlayer ID</a></li>
+            <li><a href="">Учётная запись MPlayer Store</a></li>
+
+          </ul>
+
           </div>
-          <div class="flex-subcontainer-footer-second">
-            <ul>
-              <li class="title-footer-list">Ценности MPlayer</li>
-              <li>Универсальный доступ</li>
-              <li>Окружающая среда</li>
-              <li>Конфиденциальность</li>
-            </ul>
-          </div>
-          <div class="flex-subcontainer-footer-third">
-            <ul>
-              <li class="title-footer-list">Учётная запись</li>
-              <li>Управление вашим MPlayer ID</li>
-              <li>Учётная запись MPlayer Store</li>
-            </ul>
-          </div>
+
+        <div class="flex-container-footer-navbar">
+
+            <div>
+              © MPlayer Inc., 2022 г. Все права защищены.
+            </div>
+
+            <div>
+              Условия использования
+            </div>
+
+            <div>
+              Продажа и возврат
+            </div>
+
+            <div>
+              Юридическая информация
+            </div>
+
+          
 
         </div>
 
       </div>
+
     </section>
+
   </body>
+  
 </html>
